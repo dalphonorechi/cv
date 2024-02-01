@@ -12,6 +12,7 @@ import MonitoLogo from "../images/logos/monito.svg";
 import MobileVikingsLogo from "../images/logos/mv.png";
 import NSNLogo from "../images/logos/nsn.svg";
 import ParabolLogo from "../images/logos/parabol.svg";
+// import Dalphon from "../images/user-3.jpg";
 import TastyCloudLogo from "../images/logos/tastycloud.png";
 import YearProgressLogo from "../images/logos/yearprogress.svg";
 import Minimal from "../images/logos/minimal.svg";
@@ -20,15 +21,15 @@ import { LinkedInIcon } from "@/components/icons/LinkedInIcon";
 import { XIcon } from "@/components/icons/XIcon";
 
 export const RESUME_DATA = {
-  name: "Dalphon Orechifffff",
+  name: "Dalphon Orechi",
   initials: "DO",
   location: "Nairobi, Kenya, EAT",
   locationLink: "https://www.google.com/maps/place/Nairobi",
   about:
     "Full Stack Engineer focused on building products with extra attention to details",
   summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
+    "A self-driven individual continuously advancing skills in data analysis, statistical methods, and machine learning. Aiming to utilize expertise in programming, data visualization, and manipulation to convert raw data into actionable insights for effective decision-making within organizations.",
+  avatarUrl: '../images/user-3.jpg',
   personalWebsiteUrl: "https://dalphonorechi.com",
   contact: {
     email: "info@dalphonorechi.com",
@@ -46,233 +47,110 @@ export const RESUME_DATA = {
       },
       {
         name: "X",
-        url: "https://x.com/BartoszJarocki",
+        url: "https://x.com/dalphonorechi",
         icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Bachelor of Electrical and Telecommunication Engineering - Multimedia University of Kenya",
-      degree: "",
+      school: "Multimedia University of Kenya",
+      degree: "Bachelor of Electrical and Telecommunication Engineering",
       start: "2014",
       end: "2019",
     },
   ],
   work: [
     {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: ["Remote"],
-      title: "Senior Full Stack Developer",
+      company: "SAFA",
+      link: "",
+      badges: ["On site"],
+      title: "Data Analyst",
       logo: ParabolLogo,
-      start: "2021",
-      end: "2024",
+      start: "2024",
+      end: "Present",
       description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
+        "Automating reports and creating data pipelines.",
     },
     {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
+      company: "Prospect 33",
+      link: "https://prospect33.com",
       badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
+      title: "Data Scientist",
+      logo: ParabolLogo,
+      start: "2022",
+      end: "2023",
+      description:
+        "I developed expertise in Data Science Fundamentals, including data and databases, SQL, Python, ETL/ELT, and applied data science techniques. My skills extended to Data Governance, Master Data Management, and Data Quality Framework, along with honing Project Management skills in planning, Agile methodology, and project control.",
+    },
+    {
+      company: "Articus Networks Limited",
+      link: "",
+      badges: ["On Site"],
+      title: "Network Engineer Intern",
       logo: ClevertechLogo,
-      start: "2015",
+      start: "2021",
       end: "2021",
       description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
+        "Gained expertise in splicing and managing fiber cables at ATBs and FATs, and my role included providing technical field support to ensure reliable network connectivity.",
     },
     {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: [],
-      title: "Android Developer → Lead Android Developer",
+      company: "Fiberlink Limited",
+      link: "https://www.linkd.co.ke/",
+      badges: ['On Site'],
+      title: "Network Intern",
       logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
+      start: "2021",
+      end: "2021",
       description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: [],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Creating and testing software for LTE base stations",
-    },
+        "I ensured seamless internet connectivity for clients by configuring radios and routers, managing cable infrastructure, performing maintenance tasks, and troubleshooting connectivity issues while delivering excellent customer care.",
+    }
   ],
   skills: [
-    "JavaScript",
-    "TypeScript",
-    "React/Next.js/Remix",
-    "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
+    "Python",
+    "MySQL",
+    "Scikit-Learn",
+    "Tableau",
+    "Jupyter Notebooks",
+    "AWS Cloud",
   ],
   projects: [
     {
-      title: "Consultly",
+      title: "SuperStore Sales Dashboard",
       techStack: [
         "Side Project",
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
+        "Power BI",
+        "Data Analysis",
+        "Data Visualization",
       ],
-      description: "A platform to build and grow your online business",
-      logo: ConsultlyLogo,
+      description: "Data Analysis of SuperStore Data Using Power BI.",
+      logo: '',
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
+        label: "SuperStore Sales Dashboard",
+        href: "https://github.com/dalphonorechi/SuperStore-Sales-Dashboard",
       },
     },
     {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
+      title: "Signup Flow Optimization using SQL and Tableau",
+      techStack: ["Side Project", "Tableau", "Python", "SQL", "Data Visualization"],
       description:
-        "Browser extension that records everything happening in a web application",
-      logo: MonitoLogo,
+        "The project identifies potential issues in website registration processes, utilizing real data from 365's website visitors. Through practical use cases and tools like SQL and Tableau, I conduct in-depth optimization analyses, creating insightful visualizations to pinpoint obstacles in the sign-up flow. The goal is to identify specific challenges and propose actionable solutions for a smoother user experience.",
+      logo: '',
       link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
+        label: "365 Data Science",
+        href: "https://www.linkedin.com/posts/dalphon-orechi-1109821aa_certificate-of-achievement-sign-up-flow-activity-7131967677874515968-uplc/",
       },
     },
     {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
+      title: "Predicting Type of Wine: RED or WHITE",
+      techStack: ["Side Project", "Python", "Data Visualization","Data Cleaning","EDA"],
       description:
-        "My personal website and blog. Built with Next.js and Notion API",
-      logo: JarockiMeLogo,
+        "This project predicts the type of wine, red or white",
+      logo: '',
       link: {
         label: "github.com",
-        href: "https://jarocki.me/",
+        href: "https://github.com/dalphonorechi/Wine-Type",
       },
-    },
-    {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Minimalist calendars, habit trackers and planners generator",
-      logo: Minimal,
-      link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
-      },
-    },
-    {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
-      link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
-      },
-    },
-    {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
-      link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
-      },
-    },
-    {
-      title: "Parabol",
-      techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: ParabolLogo,
-      link: {
-        label: "github.com",
-        href: "https://parabol.co/",
-      },
-    },
-    {
-      title: "Evercast",
-      techStack: [
-        "Lead Frontend Developer",
-
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
-      link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
-      },
-    },
-    {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
-      link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
-      },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Howdy is a place for you to join communities you care about",
-      logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
-    },
+    }
   ],
 } as const;
