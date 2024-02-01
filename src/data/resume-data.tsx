@@ -11,7 +11,7 @@ export const RESUME_DATA = {
   location: "Nairobi, Kenya, EAT",
   locationLink: "https://www.google.com/maps/place/Nairobi",
   about:
-    "I am an Telecommunications engineer turned data analyst. I enjoy working with data and gaining insights from it.",
+    "I am a Telecommunications engineer turned data analyst. I enjoy working with data and gaining insights from it.",
   summary:
     "A self-driven individual continuously advancing skills in data analysis, statistical methods, and machine learning. Aiming to utilize expertise in programming, data visualization, and manipulation to convert raw data into actionable insights for effective decision-making within organizations.",
   avatarUrl: '../images/user-3.jpg',
